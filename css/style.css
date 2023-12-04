@@ -5,18 +5,19 @@ body {
 }
 
 h1 {
-
+    width: 229px;
+    height: 75px;
+    top: 1px;
+    left: 33px;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
 }
-header {
-    width: 925px;
-    height: 60px;
-    top: 13px;
-    left: 655px;
-    border-radius: 50px;
-    border: 1px;
 
-}
-footer {
+.main-footer {
     width: 925px;
     height: 301px;
     top: 1046px;
@@ -24,16 +25,80 @@ footer {
 }
 
 .menu {
+    width: 295px;
+    height: 1030px;
+    left: 340px;
+    padding: 1px 0px 261px 0px;
+}
+
+.create-smth {
+    width: Fixed (229px);
+    height: Fixed (59px);
+    top: 96px;
+    left: 33px;
+    padding: 19px 65px 19px 65px;
+    border-radius: 50px;
+    gap: 10px;
+    background: #13315C;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #EEF4ED;
 
 
 }
+.search {
+    width: Fixed (190px);
+    height: Fixed (60px);
+    top: 13px;
+    left: 1390px;
+    padding: 19px 65px 19px 65px;
+    border-radius: 50px;
+    gap: 10px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #EEF4ED;
+}
 
-.search-quiz {
+.main-header {
+    width: 715px;
+    height: 60px;
+    top: 13px;
+    left: 655px;
+    padding: 16px 457px 16px 25px;
+    border-radius: 50px;
+    border: 1px ;   
+}
 
-
+.code-button {
+    width: Fixed (190px);
+    height: Fixed (60px);
+    top: 13px;
+    left: 1390px;
+    padding: 19px 65px 19px 65px;
+    border-radius: 50px;
+    gap: 10px;
+    background: #13315C;
+    color:#EEF4ED;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 .craete {
-   
 
+   
+   
+}
 .menu-items {
   
 }
@@ -45,8 +110,10 @@ footer {
 }
 
 .subjects {
- 
-
+    width: 925px;
+    height: 930px;
+    top: 96px;
+    left: 655px;
 }
 .subject-item {
 
