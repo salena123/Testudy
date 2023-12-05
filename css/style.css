@@ -4,8 +4,7 @@ body {
     color: #0B2545;
 }
 
-h1 {
-    
+h1 {  
     width: 229px;
     height: 75px;   
     font-size: 64px;
@@ -14,6 +13,24 @@ h1 {
     letter-spacing: 0em;
     text-align: left;
 
+}
+h2 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    
 }
 
 .main-footer {
@@ -29,6 +46,7 @@ h1 {
 
 .item a.active {
     color: #8DA9C4;
+
 }
 .menu {
     position: absolute;
@@ -116,11 +134,9 @@ h1 {
     width: 925px;
     height: 930px;
     top: 96px;
-    left: 655px;
-    
-    
+    left: 655px;    
 }
-.subject-item a {
+.subject a {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
@@ -128,25 +144,170 @@ h1 {
     letter-spacing: 0em;
     text-align: left;
     color: #0B2545;
-    text-decoration: none;
 }
 
 .site-navigation-item a {
     color: #0B2545;
     text-decoration: none;
 }
-.subject-item.russian {
-    
-    width: 190px;
-    height: 162px;
-    top: 80px;
-    left: 315px;
-    padding: 35px 30px 34px 30px;
-    border-radius: 40px;
+ 
 
-  
+.subject-item:hover a {
+    background-color: #8DA9C4;
+    color:#EEF4ED; 
 }
 
+svg {
+    fill: #0B2545;
+    
+}
+
+svg:hover {
+    fill: #EEF4ED;
+    .subject-item a {
+        background-color: #8DA9C4;
+        color:#EEF4ED;
+    }
+}
+
+.subject-item{
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    border: 1px;
+
+
+}
+.mathematic {
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;  
+    top: 80px;
+    left: 105px;
+}
+
+.russian {
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute; 
+    top: 80px;
+    left: 315px;  
+}
+
+.litreture {
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 80px;
+    left: 525px;
+}
+
+.physic{
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 252px;
+    left: 105px;
+}
+
+.chemistry{
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 252px;
+    left: 315px;
+}
+
+.biology {
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 252px;
+    left: 525px;
+}
+
+.foreign {
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 424px;
+    left: 105px;
+}
+
+.history{
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 424px;
+    left: 315px;
+}
+
+.social{
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 424px;
+    left: 525px;
+}
+
+.infomatic{
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 596px;
+    left: 105px;
+}
+
+.geography{
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 596px;
+    left: 315px;
+}
+
+.sports {
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 596px;
+    left: 525px;
+}
+
+.art {
+    width: 190px;
+    height: 162px;
+    padding: 35px 50px 34px 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 768px;
+    left: 105px;
+}
 .main-footer-nav {
     font-family: Roboto;
     font-size: 20px;
