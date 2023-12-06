@@ -36,11 +36,10 @@ h3 {
 }
 
 .main-footer {
-   
     width: 925px;
     height: 301px;
-    
 }
+
 .item a{
     color: #0B2545;
     text-decoration: none;
@@ -48,17 +47,32 @@ h3 {
 
 .item a.active {
     color: #8DA9C4;
-
 }
 
 .menu {
     position: absolute;
     width: 295px;
     height: 1030px;
-    left: 340px;
+    left: 185px;
     padding: 1px 0px 261px 0px;
 }
 
+.code-button {
+    width: 190px;
+    height: 60px;
+    top: 13px;
+    left: 1390px;
+    padding: 19px 30px 19px 30px;
+    border-radius: 50px;
+    gap: 10px;
+    background: #13315C;
+    color:#EEF4ED;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    margin-left: 20px;
+}
 .create-smth {
     display: grid;
     width: Fixed (229px);
@@ -69,7 +83,6 @@ h3 {
     border-radius: 50px;
     gap: 20px;
     background: #13315C;
-    font-family: Roboto;
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
@@ -79,20 +92,29 @@ h3 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.search {
-    
-    width: Fixed (190px);
-    height: Fixed (60px);
-    
+
+.main-header input#search-quiz::-webkit-input-placeholder {
+    color: #0B2545;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.search {   
+    width: 695px;
+    height: 60px;
     padding: 19px 65px 19px 65px;
     border-radius: 50px;
+    border: 1px solid #0B2545;
     gap: 10px;
     font-size: 24px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    background: #EEF4ED;
+    background: url("/img/Search.svg") top 18px left 25px no-repeat #EEF4ED;
 }
 
 header {
@@ -100,25 +122,7 @@ header {
     width: 925px;
     height: 60px;
     top: 13px;
-    left: 655px;   
-}
-
-.code-button {
-
-    top: 13px;
-    left: 340px;
-    padding: 19px 65px 19px 65px;
-    border-radius: 50px;
-    gap: 10px;
-    background: #13315C;
-    color:#EEF4ED;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0em;
-    margin-left: auto;
-    margin-right: 0;
-
+    left: 500px;
 }
 
 .menu-item {   
@@ -141,15 +145,39 @@ header {
 
 .menu-item:hover a {
     color: #8DA9C4;
-
 }
 
+.unknown-search {
+    width: 636px;
+    height: 60px;
+    top: 96px;
+    left: 79px; 
+    padding: 16px 30px 16px 26px;
+    border-radius: 50px;
+    border: 1px solid #8DA9C4;
+    background-color: #EEF4ED;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+input#unknown-search::-webkit-input-placeholder{
+    color: #8DA9C4;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .subjects {
     position: relative;
     width: 925px;
     height: 930px;
     top: 96px;
-    left: 655px;    
+    left: 500px;
 }
 .subject a {
     font-family: Roboto;
