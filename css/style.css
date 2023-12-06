@@ -12,6 +12,8 @@ h1 {
     line-height: 75px;
     letter-spacing: 0em;
     text-align: left;
+    padding: 0;
+    margin: 0;
 
 }
 h2 {
@@ -48,6 +50,7 @@ h3 {
     color: #8DA9C4;
 
 }
+
 .menu {
     position: absolute;
     width: 295px;
@@ -57,14 +60,14 @@ h3 {
 }
 
 .create-smth {
-    
+    display: grid;
     width: Fixed (229px);
     height: Fixed (59px);
     top: 96px;
     left: 33px;
     padding: 19px 65px 19px 65px;
     border-radius: 50px;
-    gap: 10px;
+    gap: 20px;
     background: #13315C;
     font-family: Roboto;
     font-size: 24px;
@@ -73,6 +76,8 @@ h3 {
     letter-spacing: 0em;
     text-align: left;
     color: #EEF4ED;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .search {
     
@@ -90,22 +95,18 @@ h3 {
     background: #EEF4ED;
 }
 
-.main-header {
-    position: relative;
-    width: 715px;
+header {
+    position: absolute;
+    width: 925px;
     height: 60px;
     top: 13px;
-    left: 655px;
-    padding: 16px 457px 16px 25px;
-    border-radius: 50px;
-    border: 1px;   
+    left: 655px;   
 }
 
 .code-button {
-    width: Fixed (190px);
-    height: Fixed (60px);
+
     top: 13px;
-    left: 1390px;
+    left: 340px;
     padding: 19px 65px 19px 65px;
     border-radius: 50px;
     gap: 10px;
@@ -115,7 +116,9 @@ h3 {
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0em;
-    text-align: left;
+    margin-left: auto;
+    margin-right: 0;
+
 }
 
 .menu-item {   
@@ -127,6 +130,18 @@ h3 {
     text-align: left;
     color: #0B2545;
     text-decoration: none;
+    width: 295px;
+    height: 85px;
+    flex-shrink: 0;
+    border: solid black;
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.menu-item:hover a {
+    color: #8DA9C4;
+
 }
 
 .subjects {
@@ -152,14 +167,13 @@ h3 {
 }
  
 
-.subject-item:hover a {
+.subject-item:hover a{
     background-color: #8DA9C4;
     color:#EEF4ED; 
 }
 
 svg {
     fill: #0B2545;
-    
 }
 
 svg:hover {
@@ -170,29 +184,25 @@ svg:hover {
     }
 }
 
-.subject-item{
+div.subject-item-mathematic{
+    position: relative;
     width: 190px;
     height: 162px;
-    padding: 35px 50px 34px 50px;
     border-radius: 40px;
-    border: 1px;
-
-
+    border: 1px;    
 }
+
 .mathematic {
-    width: 190px;
-    height: 162px;
-    padding: 35px 50px 34px 50px;
-    border-radius: 40px;
-    position: absolute;  
-    top: 80px;
-    left: 105px;
+    text-decoration: none;
+    position: absolute;
+    color:#0B2545;
+    text-align: center;
+    margin: 35px 30px 34px 30px;
 }
-
 .russian {
     width: 190px;
     height: 162px;
-    padding: 35px 50px 34px 50px;
+    margin: 35px 50px 34px 50px;
     border-radius: 40px;
     position: absolute; 
     top: 80px;
@@ -202,7 +212,7 @@ svg:hover {
 .litreture {
     width: 190px;
     height: 162px;
-    padding: 35px 50px 34px 50px;
+    margin: 35px 50px 34px 50px;
     border-radius: 40px;
     position: absolute;
     top: 80px;
