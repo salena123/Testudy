@@ -194,6 +194,10 @@ input#unknown-search::-webkit-input-placeholder{
     color:#EEF4ED; 
 }
 
+svg:hover {
+    fill: #EEF4ED; 
+}
+
 svg {
     fill: #0B2545;
 }
