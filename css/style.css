@@ -4,25 +4,51 @@ body {
     color: #0B2545;
 }
 
-header {
-    position: absolute;
-    width: 925px;
-    height: 60px;
-    top: 13px;
-    left: 500px;
+.main-header {
+    display: flex;;
+    width: 64.58%;
+    margin: 13px auto 0 auto;
+    padding: 0 17.7%;
 }
 
-h1 {  
-    width: 229px;
-    height: 75px;   
-    font-size: 64px;
-    font-weight: 600;
-    line-height: 75px;
+.code-button {
+    min-width: 190px;
+    height: 60px;
+    padding: 19px 30px 19px 30px;
+    border-radius: 50px;
+    background: #13315C;
+    color:#EEF4ED;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    margin-left: 20px;
+}
+
+.search {   
+    display: inline;
+    width: 715px;
+    height: 60px;
+    padding: 19px 65px 19px 65px;
+    border-radius: 50px;
+    border: 1px solid #0B2545;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 0;
-    margin: 0;
+    background: url("/img/Search.svg") top 18px left 25px no-repeat #EEF4ED;
+}
 
+h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    padding: 0;
+    margin-right: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 h2 {
     font-family: Roboto;
@@ -43,11 +69,6 @@ h3 {
     
 }
 
-.main-footer {
-    width: 925px;
-    height: 301px;
-}
-
 .item a{
     color: #0B2545;
     text-decoration: none;
@@ -59,34 +80,14 @@ h3 {
 
 .menu {
     position: absolute;
-    width: 295px;
-    height: 1030px;
-    left: 185px;
-    padding: 1px 0px 261px 0px;
+    left: 17%;
+    padding: 1px 0px 0px;
 }
 
-.code-button {
-    width: 190px;
-    height: 60px;
-    top: 13px;
-    left: 1390px;
-    padding: 19px 30px 19px 30px;
-    border-radius: 50px;
-    gap: 10px;
-    background: #13315C;
-    color:#EEF4ED;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0em;
-    margin-left: 20px;
-}
 .create-smth {
     display: grid;
     width: Fixed (229px);
     height: Fixed (59px);
-    top: 96px;
-    left: 33px;
     padding: 19px 65px 19px 65px;
     border-radius: 50px;
     gap: 20px;
@@ -97,8 +98,6 @@ h3 {
     letter-spacing: 0em;
     text-align: left;
     color: #EEF4ED;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .main-header input#search-quiz::-webkit-input-placeholder {
@@ -110,21 +109,10 @@ h3 {
     line-height: normal;
 }
 
-.search {   
-    width: 695px;
-    height: 60px;
-    padding: 19px 65px 19px 65px;
-    border-radius: 50px;
-    border: 1px solid #0B2545;
-    gap: 10px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    background: url("/img/Search.svg") top 18px left 25px no-repeat #EEF4ED;
-}
 
+.menu-items {
+    display: inline;
+}
 
 .menu-item {   
     font-family: Roboto;
@@ -150,10 +138,8 @@ h3 {
 
 .unknown-search {
     position: absolute;
-    width: 636px;
-    height: 60px;
-    top: 0px;
-    right: 210px; 
+    margin-left: 6%;
+    width: 68%;
     padding: 16px 30px 16px 26px;
     border-radius: 50px;
     border: 1px solid #8DA9C4;
@@ -163,7 +149,6 @@ h3 {
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
-    text-align: left;
 }
 
 input#unknown-search::-webkit-input-placeholder{
@@ -176,11 +161,11 @@ input#unknown-search::-webkit-input-placeholder{
 }
 .subjects {
     position: relative;
-    width: 925px;
+    width: 48.17%;
     height: 930px;
-    top: 96px;
-    left: 475px;
-    padding:0px;
+    left: 34%;
+    margin-top: 1.5%;
+    padding:0;
 }
 
 .site-navigation-item a {
@@ -421,7 +406,48 @@ svg {
     left: 105px;
 
 }
+
+
+.main-footer {
+    left: 34%;
+    bottom: 1%;
+    position: relative;
+    width: 925px;
+    height: 301px;
+}
+
+.footer-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 259px;
+    display: grid;
+    grid-template-columns: 135px 205px 205px;
+    gap: 75px; 
+    grid-template-areas:  "h3 h3 empt"
+                          "nav sub1 sub2";
+}
+
+.school-subjects {
+    list-style: none;
+    display: block;
+    grid-area: sub1;
+}
+
+.school-subjects:nth-child(n+6){
+    grid-area: sub2;
+}
+
+.footer-h3 {
+    grid-area: h3;
+}
+
+.navigation {
+    list-style: none;
+    grid-area: nav;
+}
 .main-footer-nav {
+    
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
