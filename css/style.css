@@ -6,6 +6,7 @@ body {
 
 .main-header {
     display: flex;
+    justify-content: space-between;
     width: 64.58%;
     margin: 13px auto 0 auto;
     padding: 0 17.7%;
@@ -47,7 +48,7 @@ h1 {
     line-height: 60px;
     letter-spacing: 0em;
     padding: 0;
-    margin-right: 20px;
+    margin-right: 53px;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center
@@ -171,8 +172,7 @@ input#unknown-search::-webkit-input-placeholder{
 .subjects {
     width: 925px;
     height: 930px;
-    /* margin-top: 1.5%; */
-    margin-left: 2%;
+    margin-left: 11%;
     margin-bottom: 20px;
 }
 
