@@ -137,10 +137,6 @@ h3 {
     color: #EEF4ED;
 }
 
-.menu-item:hover a {
-    color: #8DA9C4;
-}
-
 .unknown-search {
     margin-bottom: 20px;
     margin-right: auto;
@@ -178,22 +174,29 @@ input#unknown-search::-webkit-input-placeholder{
     color: #0B2545;
     text-decoration: none;
 }
- 
 
 .subject-item:hover {
     background-color: #8DA9C4;
-
 }
 
-.subject-item:hover a{
+.subject-item:hover svg {
+    fill:#EEF4ED; 
+}
+
+.subject-item:hover a {
     color:#EEF4ED; 
 }
-svg:hover {
-    fill: #EEF4ED; 
+
+.subject svg {
+    fill: #0B2545;
 }
 
-svg {
-    fill: #0B2545;
+.menu-item:hover a {
+    color: #8DA9C4;
+}
+
+.menu-item:hover svg {
+    stroke: #8DA9C4;
 }
 
 .subject-items {
