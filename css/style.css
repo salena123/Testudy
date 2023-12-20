@@ -14,7 +14,7 @@ body {
 
 .code-button {
     min-width: 190px;
-    min-height: 60px;
+    max-height: 60px;
     padding: 19px 30px 19px 30px;
     border-radius: 50px;
     background: #13315C;
