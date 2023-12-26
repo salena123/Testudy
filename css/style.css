@@ -310,3 +310,59 @@ input#unknown-search::-webkit-input-placeholder{
 .school-subject-item {
     width: 205px;
 }
+
+.library-page {
+    margin: 0;
+    padding: 0;
+    width: 767px;
+}
+
+.library-page h2 {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 11px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.filters {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 640px;
+}
+
+.filter {
+    width: 315px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+}
+
+.filter a {
+    display: block;
+    text-decoration: none;
+    color:#0B2545;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.filter div {
+    height: 40px;
+    border-radius: 40px;
+}
+
+.filter svg {
+    margin-right: 10px;
+}
+
+.filter div:hover a{
+    background: #8DA9C4;
+    color: #EEF4ED;
+}
