@@ -241,6 +241,7 @@ input#unknown-search::-webkit-input-placeholder{
 
 .main-footer {
     margin: 0 auto;
+    margin-left: 34%;
     width: 925px;
     height: 301px;
 }
