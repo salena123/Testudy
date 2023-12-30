@@ -12,9 +12,7 @@ const getChecked = (radioButton) => {
                 }
             }
         }
-    });
-
-    
+    });  
 };
 
 for (let radioButton of radioButtons) {
