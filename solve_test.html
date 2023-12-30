@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Testudy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="solve-header">
+        <div class="left">
+            <img src="/img/Expand_left.svg">
+            <p class="question-number">3 вопрос</p>
+        </div>
+        <div class="right">
+            <div class="timer">
+                <div class="timer__items">
+                    <div class="timer__item timer__minutes">00</div>
+                    <div class="timer__item timer__seconds">59</div>
+                </div>
+                <div class="timer__result"></div>
+            </div>
+            <p class="points">2 балла</p>
+            <a class="next" href="#">Отправить ответ</a>
+        </div>
+    </header>
+    <main class="solve-content">
+        <div class="question-container">
+            <p class="question">2 + 2 ?</p>
+            <form name="answers" class="answers">
+                <div class="answer">
+                    <label>
+                        <input type="radio" class="radio-button" id="ans1" name="ans" value="1">
+                        <span class="custom-radio"><img src="/img/no-check_ring.svg"></span>
+                    1</label>
+                </div>
+                <div class="answer">
+                    <label>
+                        <input type="radio" class="radio-button" id="ans2" name="ans" value="2">
+                        <span class="custom-radio"><img src="/img/no-check_ring.svg"></span>
+                    2</label>
+                </div>
+                <div class="answer">
+                    <label>
+                        <input type="radio" class="radio-button" id="ans3" name="ans" value="3">
+                        <span class="custom-radio"><img src="/img/no-check_ring.svg"></span>
+                    3</label>
+                </div>
+                <div class="answer">
+                    <label>
+                        <input type="radio" class="radio-button" id="ans4" name="ans" value="4">
+                        <span class="custom-radio"><img src="/img/no-check_ring.svg"></span>
+                    4</label>
+                </div>
+            </form>           
+        </div>      
+    </main>
+<script src="/js/script.js"></script>
+</body>
+</html>
